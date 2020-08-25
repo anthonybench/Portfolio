@@ -1,7 +1,7 @@
 ﻿import React, { useState } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faPalette } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faPalette, faGamepad } from '@fortawesome/free-solid-svg-icons'
 import { faDiscord, faLinkedin, faSteamSquare, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 import './ContactModal.css';
 
@@ -27,7 +27,7 @@ const ContactModal = (props) => {
   return (
     <div>
       <Button color="link" onClick={toggle}>{buttonLabel}</Button>
-      <Modal className="modal-border" isOpen={modal} toggle={toggle}>
+      <Modal className="modal-genFormat" isOpen={modal} toggle={toggle}>
         <ModalHeader toggle={toggle} className="modal-header" charCode="✌">Reach out</ModalHeader>
         <ModalBody className="modal-body">
           <span> <FontAwesomeIcon icon={faEnvelope} size="lg" /> anthonybenchyep@gmail.com </span> <br />
@@ -36,7 +36,8 @@ const ContactModal = (props) => {
           <span>  <FontAwesomeIcon icon={faDiscord} size="lg" /> Sleepy Boy #9699 </span> <br />
           <span>  <FontAwesomeIcon icon={faSteamSquare} size="lg" /> anthonybench </span> <br />
           <span>  <FontAwesomeIcon icon={faGithubSquare} size="lg" /> github.com/anthonybench </span> <br />
-          <span>  <FontAwesomeIcon icon={faPalette} size="lg" /> pixilart.com/sleepyboy </span>
+          <span>  <FontAwesomeIcon icon={faPalette} size="lg" /> pixilart.com/sleepyboy </span> <br />
+          <span>  <FontAwesomeIcon icon={faGamepad} size="lg" /> <strong>Nintendo Switch:</strong> SW-2507-6039-7504 </span>
         </ModalBody>
         <ModalFooter className="modal-footer">
           Can't wait to hear from you!

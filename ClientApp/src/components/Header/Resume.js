@@ -1,33 +1,9 @@
-// import React, { Component } from 'react';
-// import { AboutMe } from './AboutMe';
-// import ResumePg1 from './ResumePg1.jpeg';
-// import ResumePg2 from './ResumePg2.jpeg';
-// import './Resume.css';
-
-// export class Resume extends Component {
-  
-
-//   render() {
-//     return (
-//       <div>
-//         <AboutMe />
-//         <span className="resume-embed">
-//           <img src={ResumePg1} alt="Resume, Pg. 1" width="620" height="877" />
-//           <img src={ResumePg2} alt="Resume, Pg. 1" width="620" height="877" />
-//         </span>
-//       </div>
-//     );
-//   }
-// }
-
-////////////////////////////////////
-
 import React, { useState } from 'react';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 import { AboutMe } from './AboutMe';
-import ResumePg1 from './ResumePg1.jpeg';
-import ResumePg2 from './ResumePg2.jpeg';
+import ResumePg1 from '../../Assets/ResumePg1.jpeg';
+import ResumePg2 from '../../Assets/ResumePg2.jpeg';
 import './Resume.css';
 
 const Resume = () => {
@@ -38,7 +14,7 @@ const Resume = () => {
   }
 
   return (
-    <div>
+    <div className="genFormat">
       <AboutMe />
       <Nav tabs>
         <NavItem>

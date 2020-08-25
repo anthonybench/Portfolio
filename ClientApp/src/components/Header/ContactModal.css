@@ -1,21 +1,21 @@
 @font-face {
   font-family: 'Montserrat Bold';
-  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  src: url('../../fonts/Montserrat-Bold.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Montserrat';
-  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  src: url('../../fonts/Montserrat-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'RobotoSlab';
-  src: url('../fonts/RobotoSlab-VariableFont_wght.ttf') format('truetype');
+  src: url('../../fonts/RobotoSlab-VariableFont_wght.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'OleoScript';
-  src: url('../fonts/OleoScript-Regular.ttf') format('truetype');
+  src: url('../../fonts/OleoScript-Regular.ttf') format('truetype');
 }
 
 .modal-body {
@@ -40,7 +40,7 @@
   font-size: 25px;
 }
 
-.modal-border {
+.modal-genFormat {
   border: 3px solid black;
   line-height: 30px;
 }
