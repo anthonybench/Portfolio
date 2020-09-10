@@ -4,8 +4,8 @@ import { Layout } from './components/Layout';
 import { Home } from './components/Home';
 import { FetchData } from './components/FetchData';
 import { Counter } from './components/Counter';
-import Resume from './components/Header/Resume';
-import { ToolBox } from './components/Header/ToolBox';
+import Resume from './components/HeadContent/Resume';
+import { ToolBox } from './components/HeadContent/ToolBox';
 
 import './custom.css'
 
