@@ -37,7 +37,7 @@ const ContactModal = (props) => {
           <span>  <FontAwesomeIcon icon={faSteamSquare} size="lg" /> anthonybench </span> <br />
           <span>  <FontAwesomeIcon icon={faGithubSquare} size="lg" /> github.com/anthonybench </span> <br />
           <span>  <FontAwesomeIcon icon={faPalette} size="lg" /> pixilart.com/sleepyboy </span> <br />
-          <span>  <FontAwesomeIcon icon={faGamepad} size="lg" /> <strong>Nintendo Switch:</strong> SW-2507-6039-7504 </span>
+          <span>  <FontAwesomeIcon icon={faGamepad} size="lg" /> <strong>Switch:</strong> SW-2507-6039-7504 </span>
         </ModalBody>
         <ModalFooter className="modal-footer">
           Can't wait to hear from you!
